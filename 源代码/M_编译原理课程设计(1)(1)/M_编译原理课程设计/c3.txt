@@ -1,0 +1,28 @@
+{      Ĳ  Գ   }
+{   ܣ         m,n ;     m+1,n+1,  m+1+n+1  ֵ}
+program  example
+type 
+     w2=record
+          integer  x;
+          integer  y;
+        end;
+var 
+w2  a;     
+integer b;
+integer c;
+integer d;
+procedure sd(integer s1;var integer s2);
+begin
+   s2:=s1+1
+end
+begin       
+   read(b);
+   read(d);
+   sd(b,c);
+   a.x:=c;
+   write(a.x);
+   sd(d,c);
+   a.y:=c;
+   write(a.y);
+   write(a.x+a.y)        
+end.

@@ -1,0 +1,15 @@
+当前层数：1
+s1  varkind 0
+s2  varkind 1
+当前层数：1
+a  varkind 0
+当前层数：0
+w1  typekind
+w2  typekind
+c  varkind 0
+b  varkind 1
+a  varkind 2
+d  varkind 3
+sd  prockind
+sss  prockind
+语义分析完成

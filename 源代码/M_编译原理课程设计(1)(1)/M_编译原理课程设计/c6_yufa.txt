@@ -1,0 +1,4 @@
+1行成功匹配 now_token->Lex: PROGRAM
+1行成功匹配 now_token->Lex: ID
+syntax_error!! in line 2 from DeclarePart
+递归下降语法分析遇到错误，停止进行后续操作

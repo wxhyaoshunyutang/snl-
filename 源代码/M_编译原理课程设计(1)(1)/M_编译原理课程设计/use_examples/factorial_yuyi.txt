@@ -1,0 +1,9 @@
+当前层数：1
+n  varkind 0
+m  varkind 1
+w  varkind 2
+当前层数：0
+s  varkind 0
+t  varkind 1
+factor  prockind
+语义分析完成

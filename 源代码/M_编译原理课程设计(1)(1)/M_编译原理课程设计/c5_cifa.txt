@@ -1,0 +1,55 @@
+1	PROGRAM		
+1	ID		c
+2	VAR		
+3	INTEGER		
+3	ID		a
+3	COMMA		
+3	ID		b
+3	COMMA		
+3	ID		i
+3	SEMI		
+4	CHAR		
+4	ID		f
+4	SEMI		
+5	PROCEDURE		
+5	ID		sd
+5	LPAREN		
+5	INTEGER		
+5	ID		s1
+5	SEMI		
+5	VAR		
+5	INTEGER		
+5	ID		s2
+5	RPAREN		
+5	SEMI		
+6	BEGIN		
+7	IF		
+7	ID		s1
+7	LT		
+7	INTC		10
+8	THEN		
+8	ID		s2
+8	ASSIG		
+8	ID		s1
+8	PLUS		
+8	INTC		10
+9	ELSE		
+9	ID		s2
+9	ASSIG		
+9	ID		s1
+9	SUB		
+9	INTC		10
+10	FI		
+11	END		
+12	BEGIN		
+14	ID		sd
+14	LPAREN		
+14	ID		a
+14	COMMA		
+14	ID		b
+14	RPAREN		
+14	SEMI		
+15	RETURN		
+16	END		
+16	DOT		
+16	EOF		

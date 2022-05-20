@@ -1,0 +1,10 @@
+当前层数：1
+x  varkind
+y  varkind
+z  varkind
+当前层数：0
+x  varkind
+y  varkind
+z  varkind
+f  prockind
+语义分析完成

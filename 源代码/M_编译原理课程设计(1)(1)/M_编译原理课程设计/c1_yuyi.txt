@@ -1,0 +1,10 @@
+当前层数：1
+a  varkind 0
+当前层数：0
+i  typekind
+sarray  typekind
+x  varkind 0
+y  varkind 1
+ss  varkind 6
+sd  prockind
+语义分析完成

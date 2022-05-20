@@ -1,0 +1,13 @@
+当前层数：1
+num  varkind 0
+i  varkind 1
+j  varkind 2
+k  varkind 3
+t  varkind 4
+当前层数：0
+i  varkind 0
+j  varkind 1
+num  varkind 2
+a  varkind 3
+q  prockind
+语义分析完成

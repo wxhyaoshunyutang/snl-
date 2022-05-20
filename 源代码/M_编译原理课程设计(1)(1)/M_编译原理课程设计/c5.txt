@@ -1,0 +1,18 @@
+program c
+var 
+    integer a,b,i;
+    char f;
+procedure sd(integer s1;var integer s2); 
+begin
+   if s1<10
+   then s2:=s1+10
+   else s2:=s1-10	
+   fi
+end
+begin
+{y[2]:=1;
+sd(a,b);
+f.x:=1;}
+sd(a,b);
+return
+end.

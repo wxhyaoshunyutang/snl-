@@ -1,0 +1,8 @@
+当前层数：0
+i  varkind 0
+n  varkind 1
+m  varkind 2
+j  varkind 3
+k  varkind 4
+a  varkind 5
+语义分析完成

@@ -1,0 +1,305 @@
+   Program
+   ©À ProgramHead
+   ©¦ ©À PROGRAM
+   ©¦ ©¸ ProgramName
+   ©¦    ©¸ ID
+   ©À DeclarePart
+   ©¦ ©À TypeDecPart
+   ©¦ ©À VarDecPart
+   ©¦ ©¦ ©¸ VarDec
+   ©¦ ©¦    ©À VAR
+   ©¦ ©¦    ©¸ VarDecList
+   ©¦ ©¦       ©À TypeDef
+   ©¦ ©¦       ©¦ ©¸ BaseType
+   ©¦ ©¦       ©¦    ©¸ INTEGER
+   ©¦ ©¦       ©À VarIDList
+   ©¦ ©¦       ©¦ ©À ID
+   ©¦ ©¦       ©¦ ©¸ VarIDMore
+   ©¦ ©¦       ©¦    ©À COMMA
+   ©¦ ©¦       ©¦    ©¸ VarIDList
+   ©¦ ©¦       ©¦       ©À ID
+   ©¦ ©¦       ©¦       ©¸ VarIDMore
+   ©¦ ©¦       ©¦          ©À COMMA
+   ©¦ ©¦       ©¦          ©¸ VarIDList
+   ©¦ ©¦       ©¦             ©À ID
+   ©¦ ©¦       ©¦             ©¸ VarIDMore
+   ©¦ ©¦       ©¦                ©À COMMA
+   ©¦ ©¦       ©¦                ©¸ VarIDList
+   ©¦ ©¦       ©¦                   ©À ID
+   ©¦ ©¦       ©¦                   ©¸ VarIDMore
+   ©¦ ©¦       ©¦                      ©À COMMA
+   ©¦ ©¦       ©¦                      ©¸ VarIDList
+   ©¦ ©¦       ©¦                         ©À ID
+   ©¦ ©¦       ©¦                         ©¸ VarIDMore
+   ©¦ ©¦       ©À SEMI
+   ©¦ ©¦       ©¸ VarDecMore
+   ©¦ ©¦          ©¸ VarDecList
+   ©¦ ©¦             ©À TypeDef
+   ©¦ ©¦             ©¦ ©¸ StructureType
+   ©¦ ©¦             ©¦    ©¸ ArrayType
+   ©¦ ©¦             ©¦       ©À ARRAY
+   ©¦ ©¦             ©¦       ©À LMIDPAREN
+   ©¦ ©¦             ©¦       ©À Low
+   ©¦ ©¦             ©¦       ©¦ ©¸ INTC
+   ©¦ ©¦             ©¦       ©À UNDERANGE
+   ©¦ ©¦             ©¦       ©À Top
+   ©¦ ©¦             ©¦       ©¦ ©¸ INTC
+   ©¦ ©¦             ©¦       ©À RMIDPAREN
+   ©¦ ©¦             ©¦       ©À OF
+   ©¦ ©¦             ©¦       ©¸ BaseType
+   ©¦ ©¦             ©¦          ©¸ INTEGER
+   ©¦ ©¦             ©À VarIDList
+   ©¦ ©¦             ©¦ ©À ID
+   ©¦ ©¦             ©¦ ©¸ VarIDMore
+   ©¦ ©¦             ©À SEMI
+   ©¦ ©¦             ©¸ VarDecMore
+   ©¦ ©¸ ProcDecpart
+   ©À ProgramBody
+   ©¦ ©À BEGIN
+   ©¦ ©À StmList
+   ©¦ ©¦ ©À Stm
+   ©¦ ©¦ ©¦ ©À ID
+   ©¦ ©¦ ©¦ ©¸ AssCall
+   ©¦ ©¦ ©¦    ©¸ AssignmentRest
+   ©¦ ©¦ ©¦       ©À VariMore
+   ©¦ ©¦ ©¦       ©À ASSIG
+   ©¦ ©¦ ©¦       ©¸ Exp
+   ©¦ ©¦ ©¦          ©À Term
+   ©¦ ©¦ ©¦          ©¦ ©À Factor
+   ©¦ ©¦ ©¦          ©¦ ©¦ ©¸ INTC
+   ©¦ ©¦ ©¦          ©¦ ©¸ OtherFactor
+   ©¦ ©¦ ©¦          ©¸ OtherTerm
+   ©¦ ©¦ ©¸ StmMore
+   ©¦ ©¦    ©À SEMI
+   ©¦ ©¦    ©¸ StmList
+   ©¦ ©¦       ©À Stm
+   ©¦ ©¦       ©¦ ©À ID
+   ©¦ ©¦       ©¦ ©¸ AssCall
+   ©¦ ©¦       ©¦    ©¸ AssignmentRest
+   ©¦ ©¦       ©¦       ©À VariMore
+   ©¦ ©¦       ©¦       ©À ASSIG
+   ©¦ ©¦       ©¦       ©¸ Exp
+   ©¦ ©¦       ©¦          ©À Term
+   ©¦ ©¦       ©¦          ©¦ ©À Factor
+   ©¦ ©¦       ©¦          ©¦ ©¦ ©¸ INTC
+   ©¦ ©¦       ©¦          ©¦ ©¸ OtherFactor
+   ©¦ ©¦       ©¦          ©¸ OtherTerm
+   ©¦ ©¦       ©¸ StmMore
+   ©¦ ©¦          ©À SEMI
+   ©¦ ©¦          ©¸ StmList
+   ©¦ ©¦             ©À Stm
+   ©¦ ©¦             ©¦ ©¸ InputStm
+   ©¦ ©¦             ©¦    ©À READ
+   ©¦ ©¦             ©¦    ©À LPAREN
+   ©¦ ©¦             ©¦    ©À Invar
+   ©¦ ©¦             ©¦    ©¦ ©¸ ID
+   ©¦ ©¦             ©¦    ©¸ RPAREN
+   ©¦ ©¦             ©¸ StmMore
+   ©¦ ©¦                ©À SEMI
+   ©¦ ©¦                ©¸ StmList
+   ©¦ ©¦                   ©À Stm
+   ©¦ ©¦                   ©¦ ©À ID
+   ©¦ ©¦                   ©¦ ©¸ AssCall
+   ©¦ ©¦                   ©¦    ©¸ AssignmentRest
+   ©¦ ©¦                   ©¦       ©À VariMore
+   ©¦ ©¦                   ©¦       ©¦ ©À LMIDPAREN
+   ©¦ ©¦                   ©¦       ©¦ ©À Exp
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©À Term
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©¦ ©À Factor
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                   ©¦       ©¦ ©¦ ©¸ OtherTerm
+   ©¦ ©¦                   ©¦       ©¦ ©¸ RMIDPAREN
+   ©¦ ©¦                   ©¦       ©À ASSIG
+   ©¦ ©¦                   ©¦       ©¸ Exp
+   ©¦ ©¦                   ©¦          ©À Term
+   ©¦ ©¦                   ©¦          ©¦ ©À Factor
+   ©¦ ©¦                   ©¦          ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                   ©¦          ©¦ ©¦    ©À ID
+   ©¦ ©¦                   ©¦          ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                   ©¦          ©¦ ©¸ OtherFactor
+   ©¦ ©¦                   ©¦          ©¸ OtherTerm
+   ©¦ ©¦                   ©¸ StmMore
+   ©¦ ©¦                      ©À SEMI
+   ©¦ ©¦                      ©¸ StmList
+   ©¦ ©¦                         ©À Stm
+   ©¦ ©¦                         ©¦ ©À ID
+   ©¦ ©¦                         ©¦ ©¸ AssCall
+   ©¦ ©¦                         ©¦    ©¸ AssignmentRest
+   ©¦ ©¦                         ©¦       ©À VariMore
+   ©¦ ©¦                         ©¦       ©À ASSIG
+   ©¦ ©¦                         ©¦       ©¸ Exp
+   ©¦ ©¦                         ©¦          ©À Term
+   ©¦ ©¦                         ©¦          ©¦ ©À Factor
+   ©¦ ©¦                         ©¦          ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                         ©¦          ©¦ ©¦    ©À ID
+   ©¦ ©¦                         ©¦          ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©À LMIDPAREN
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©À Exp
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©À Term
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©¦ ©À Factor
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¦ ©¸ OtherTerm
+   ©¦ ©¦                         ©¦          ©¦ ©¦       ©¸ RMIDPAREN
+   ©¦ ©¦                         ©¦          ©¦ ©¸ OtherFactor
+   ©¦ ©¦                         ©¦          ©¸ OtherTerm
+   ©¦ ©¦                         ©¦             ©À AddOp
+   ©¦ ©¦                         ©¦             ©¦ ©¸ PLUS
+   ©¦ ©¦                         ©¦             ©¸ Exp
+   ©¦ ©¦                         ©¦                ©À Term
+   ©¦ ©¦                         ©¦                ©¦ ©À Factor
+   ©¦ ©¦                         ©¦                ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                         ©¦                ©¦ ©¦    ©À ID
+   ©¦ ©¦                         ©¦                ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                         ©¦                ©¦ ©¸ OtherFactor
+   ©¦ ©¦                         ©¦                ©¸ OtherTerm
+   ©¦ ©¦                         ©¸ StmMore
+   ©¦ ©¦                            ©À SEMI
+   ©¦ ©¦                            ©¸ StmList
+   ©¦ ©¦                               ©À Stm
+   ©¦ ©¦                               ©¦ ©¸ OutputStm
+   ©¦ ©¦                               ©¦    ©À WRITE
+   ©¦ ©¦                               ©¦    ©À LPAREN
+   ©¦ ©¦                               ©¦    ©À Exp
+   ©¦ ©¦                               ©¦    ©¦ ©À Term
+   ©¦ ©¦                               ©¦    ©¦ ©¦ ©À Factor
+   ©¦ ©¦                               ©¦    ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                               ©¦    ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                               ©¦    ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                               ©¦    ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                               ©¦    ©¦ ©¸ OtherTerm
+   ©¦ ©¦                               ©¦    ©¸ RPAREN
+   ©¦ ©¦                               ©¸ StmMore
+   ©¦ ©¦                                  ©À SEMI
+   ©¦ ©¦                                  ©¸ StmList
+   ©¦ ©¦                                     ©À Stm
+   ©¦ ©¦                                     ©¦ ©À ID
+   ©¦ ©¦                                     ©¦ ©¸ AssCall
+   ©¦ ©¦                                     ©¦    ©¸ AssignmentRest
+   ©¦ ©¦                                     ©¦       ©À VariMore
+   ©¦ ©¦                                     ©¦       ©¦ ©À LMIDPAREN
+   ©¦ ©¦                                     ©¦       ©¦ ©À Exp
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©À Term
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©¦ ©À Factor
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                     ©¦       ©¦ ©¦ ©¸ OtherTerm
+   ©¦ ©¦                                     ©¦       ©¦ ©¸ RMIDPAREN
+   ©¦ ©¦                                     ©¦       ©À ASSIG
+   ©¦ ©¦                                     ©¦       ©¸ Exp
+   ©¦ ©¦                                     ©¦          ©À Term
+   ©¦ ©¦                                     ©¦          ©¦ ©À Factor
+   ©¦ ©¦                                     ©¦          ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                     ©¦          ©¦ ©¦    ©À ID
+   ©¦ ©¦                                     ©¦          ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©À LMIDPAREN
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©À Exp
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©À Term
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©¦ ©À Factor
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¦ ©¸ OtherTerm
+   ©¦ ©¦                                     ©¦          ©¦ ©¦       ©¸ RMIDPAREN
+   ©¦ ©¦                                     ©¦          ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                     ©¦          ©¸ OtherTerm
+   ©¦ ©¦                                     ©¦             ©À AddOp
+   ©¦ ©¦                                     ©¦             ©¦ ©¸ PLUS
+   ©¦ ©¦                                     ©¦             ©¸ Exp
+   ©¦ ©¦                                     ©¦                ©À Term
+   ©¦ ©¦                                     ©¦                ©¦ ©À Factor
+   ©¦ ©¦                                     ©¦                ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                     ©¦                ©¦ ©¦    ©À ID
+   ©¦ ©¦                                     ©¦                ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                     ©¦                ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                     ©¦                ©¸ OtherTerm
+   ©¦ ©¦                                     ©¸ StmMore
+   ©¦ ©¦                                        ©À SEMI
+   ©¦ ©¦                                        ©¸ StmList
+   ©¦ ©¦                                           ©À Stm
+   ©¦ ©¦                                           ©¦ ©¸ OutputStm
+   ©¦ ©¦                                           ©¦    ©À WRITE
+   ©¦ ©¦                                           ©¦    ©À LPAREN
+   ©¦ ©¦                                           ©¦    ©À Exp
+   ©¦ ©¦                                           ©¦    ©¦ ©À Term
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©À Factor
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©À LMIDPAREN
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©À Exp
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©À Term
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©¦ ©À Factor
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¦ ©¸ OtherTerm
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¦       ©¸ RMIDPAREN
+   ©¦ ©¦                                           ©¦    ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                           ©¦    ©¦ ©¸ OtherTerm
+   ©¦ ©¦                                           ©¦    ©¸ RPAREN
+   ©¦ ©¦                                           ©¸ StmMore
+   ©¦ ©¦                                              ©À SEMI
+   ©¦ ©¦                                              ©¸ StmList
+   ©¦ ©¦                                                 ©À Stm
+   ©¦ ©¦                                                 ©¦ ©À ID
+   ©¦ ©¦                                                 ©¦ ©¸ AssCall
+   ©¦ ©¦                                                 ©¦    ©¸ AssignmentRest
+   ©¦ ©¦                                                 ©¦       ©À VariMore
+   ©¦ ©¦                                                 ©¦       ©À ASSIG
+   ©¦ ©¦                                                 ©¦       ©¸ Exp
+   ©¦ ©¦                                                 ©¦          ©À Term
+   ©¦ ©¦                                                 ©¦          ©¦ ©À Factor
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦    ©À ID
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©À LMIDPAREN
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©À Exp
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©À Term
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©¦ ©À Factor
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¦ ©¸ OtherTerm
+   ©¦ ©¦                                                 ©¦          ©¦ ©¦       ©¸ RMIDPAREN
+   ©¦ ©¦                                                 ©¦          ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                                 ©¦          ©¸ OtherTerm
+   ©¦ ©¦                                                 ©¦             ©À AddOp
+   ©¦ ©¦                                                 ©¦             ©¦ ©¸ PLUS
+   ©¦ ©¦                                                 ©¦             ©¸ Exp
+   ©¦ ©¦                                                 ©¦                ©À Term
+   ©¦ ©¦                                                 ©¦                ©¦ ©À Factor
+   ©¦ ©¦                                                 ©¦                ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                                 ©¦                ©¦ ©¦    ©À ID
+   ©¦ ©¦                                                 ©¦                ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                                 ©¦                ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                                 ©¦                ©¸ OtherTerm
+   ©¦ ©¦                                                 ©¸ StmMore
+   ©¦ ©¦                                                    ©À SEMI
+   ©¦ ©¦                                                    ©¸ StmList
+   ©¦ ©¦                                                       ©À Stm
+   ©¦ ©¦                                                       ©¦ ©¸ OutputStm
+   ©¦ ©¦                                                       ©¦    ©À WRITE
+   ©¦ ©¦                                                       ©¦    ©À LPAREN
+   ©¦ ©¦                                                       ©¦    ©À Exp
+   ©¦ ©¦                                                       ©¦    ©¦ ©À Term
+   ©¦ ©¦                                                       ©¦    ©¦ ©¦ ©À Factor
+   ©¦ ©¦                                                       ©¦    ©¦ ©¦ ©¦ ©¸ Variable
+   ©¦ ©¦                                                       ©¦    ©¦ ©¦ ©¦    ©À ID
+   ©¦ ©¦                                                       ©¦    ©¦ ©¦ ©¦    ©¸ VariMore
+   ©¦ ©¦                                                       ©¦    ©¦ ©¦ ©¸ OtherFactor
+   ©¦ ©¦                                                       ©¦    ©¦ ©¸ OtherTerm
+   ©¦ ©¦                                                       ©¦    ©¸ RPAREN
+   ©¦ ©¦                                                       ©¸ StmMore
+   ©¦ ©¸ END
+   ©¸ DOT

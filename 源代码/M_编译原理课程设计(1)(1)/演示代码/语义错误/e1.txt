@@ -1,0 +1,15 @@
+program c
+var 
+    integer x,y,z;
+	array[1..0] of integer a;
+procedure f(integer x,y;var integer z);
+    begin
+	z:=x+y+z;
+	write(x);
+	write(y);
+	write(z)
+    end
+begin
+x:=y/x;
+return
+end.

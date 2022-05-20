@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(85,44): warning C4099: “Semantic::SymbolTable”: 类型名称以前使用“struct”现在使用的是“class”
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(85): message : 参见“Semantic::SymbolTable”的声明
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\LL1_analysis.h(932): warning C4715: “string2enum”: 不是所有的控件路径都返回值
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(1467): warning C4715: “Semantic::TestDigui”: 不是所有的控件路径都返回值
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(403): warning C4715: “Semantic::TypeProcess”: 不是所有的控件路径都返回值
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(271): warning C4715: “Semantic::BaseType”: 不是所有的控件路径都返回值
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(364): warning C4715: “Semantic::StructrueType”: 不是所有的控件路径都返回值
+C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\M_编译原理课程设计\sematic_analysis.h(384): warning C4715: “Semantic::IDType”: 不是所有的控件路径都返回值
+  M_编译原理课程设计.vcxproj -> C:\Users\10104\Desktop\M_编译原理课程设计(1)(1)\x64\Debug\M_编译原理课程设计.exe

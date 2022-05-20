@@ -1,0 +1,23 @@
+program c
+type
+     w2=record
+          integer  x;
+          integer  y;
+        end;
+var 
+    integer x,y,z;
+	array[1..20] of integer a;
+    char m;
+    w2 l;
+procedure f(integer x,y;var integer z);
+    begin
+	z:=x+y+z;
+	write(x);
+	write(y);
+	write(z)
+    end
+begin
+x:=y/x;
+f(x,y);
+return
+end.

@@ -1,0 +1,4 @@
+Word error! 1 EXISTS ERROR
+1	ID		Word
+1	ID		error
+1	EOF		

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>digui C:\\Users\\快乐的熊\\Desktop\\3.2\\编译原理课设\\program\\M_编译原理课程设计(1)\\M_编译原理课程设计\\c6.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>digui C:\\Users\\快乐的熊\\Desktop\\3.2\\编译原理课设\\program\\M_编译原理课程设计(1)\\M_编译原理课程设计\\c6.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>digui C:\\Users\\10104\\Desktop\\M_编译原理课程设计(1)(1)\\演示代码\\语法错误\\cs1.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>digui C:\\Users\\快乐的熊\\Desktop\\3.2\\编译原理课设\\program\\M_编译原理课程设计(1)\\M_编译原理课程设计\\c6.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

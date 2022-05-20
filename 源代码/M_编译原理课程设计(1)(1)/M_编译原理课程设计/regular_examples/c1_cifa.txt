@@ -1,0 +1,10 @@
+Word error! 5 EXISTS ERROR
+3	PROGRAM		
+3	ID		sd
+4	TYPE		
+4	ID		i
+4	EQ		
+4	INTEGER		
+4	SEMI		
+5	ID		sarray
+5	EOF		

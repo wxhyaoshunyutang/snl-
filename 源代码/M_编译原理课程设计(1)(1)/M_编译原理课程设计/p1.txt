@@ -1,0 +1,55 @@
+program p
+type  t1 = integer;
+w1=record
+        integer x;
+        integer x;
+        integer y,z;
+        char cx;
+        char cy;
+        array[0..5] of char cc;
+        end;
+var integer v1,v2; char c1,c2;
+array[0..4] of integer a;
+procedure q(integer i, j);
+var integer a;
+begin
+a:=i;
+   write(a)
+end
+
+procedure p(integer i, j;char c1,c2);
+var integer b;
+    procedure p(char i, j);
+    var char a; char i;
+    begin
+    a:=i;
+       write(a)
+    end
+begin
+b:=i+j
+end
+
+begin
+read(v1);
+read(zyb);
+
+w1.c[4]:=1;
+w1.cc[a[11]]:=1;
+
+if v1<1
+then v1:=v1+10+11+'w'
+else v1:=v1-(10-11)
+fi;
+
+q(v1,10);
+a[10]:=1;
+a['c']:=1;
+a[2]:=a[3]+(4-6);
+{p(4,5,'w','b')}
+
+p(4,5);
+a(4,5);
+zyb(4,5);
+p:=p+1;
+a:=a+1
+end.
